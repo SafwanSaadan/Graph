@@ -1,0 +1,75 @@
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand; /* تغيير الفأرة عند تحريكها فوق الأزرار */
+}
+
+.button-delete {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: #FF0000; /* Red */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.button-delete:hover {
+    -fx-background-color: #CC0000; /* Darker Red */
+}
+
+.button-update {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: #0000FF; /* Blue */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.button-update:hover {
+    -fx-background-color: #0000CC; /* Darker Blue */
+}
+
+.button-search {
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-color: #00F0CC; /* Turquoise */
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.button-search:hover {
+    -fx-background-color: #00FACC; /* Darker Turquoise */
+}
+
+.button:hover {
+    -fx-background-color: #FFA500; /* Orange */
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-pref-width: 150px;
+}
+
+#graph-pane {
+    -fx-background-color: #f0f0f0; /* Light Gray */
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+#control-pane {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+}
+
+#control-pane {
+    -fx-background-image: url('AI.jpg'); /* اسم الملف الذي ترغب في استخدامه كخلفية */
+    -fx-background-size: cover; /* لضمان تغطية الشاشة بالكامل بالصورة */
+    -fx-background-position: center; /* لتوسيط الصورة في الشاشة */
+}
